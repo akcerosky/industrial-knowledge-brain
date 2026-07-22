@@ -49,10 +49,10 @@ npm run dev
 - Keep every answer grounded with citations, confidence scores, and direct links to source files
 - Support field technicians on mobile as well as engineers on desktop
 
-## Next Build Steps
+## Current Status
 
-1. Add Postgres and Neo4j connection settings with environment-driven configuration.
-2. Implement Tesseract-backed OCR and PDF/text extraction adapters.
-3. Add Gemini-powered entity and relation extraction with confidence scores.
-4. Persist chunks to pgvector and canonical entities/relations to Neo4j.
-5. Wire the frontend chat flow to the FastAPI retrieval endpoints.
+- Environment-driven Postgres and Neo4j configuration is in place via `docker-compose.yml` and backend runtime env vars.
+- OCR and document extraction are implemented with `pytesseract` and the ingestion loaders in `backend/ingestion/`.
+- Gemini-backed extraction, embeddings, and answer synthesis are wired through `backend/llm/` and the retrieval pipeline.
+- Chunks persist to pgvector and graph entities/relations persist to Neo4j when the corresponding services are configured.
+- The React frontend is already connected to the FastAPI API surface, including `/api/query` and related workflow endpoints.
