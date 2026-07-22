@@ -1,19 +1,27 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, ReactNode } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 type PanelProps = PropsWithChildren<{
   title: string;
   eyebrow?: string;
+  action?: ReactNode;
 }>;
 
-export function Panel({ title, eyebrow, children }: PanelProps) {
+export function Panel({ title, eyebrow, action, children }: PanelProps) {
   return (
-    <section className="rounded-[1.75rem] border border-steel/10 bg-white/80 p-5 shadow-[0_12px_48px_rgba(15,23,32,0.06)] backdrop-blur">
-      {eyebrow ? (
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-signal">{eyebrow}</p>
-      ) : null}
-      <h2 className="mt-2 text-xl font-bold text-ink">{title}</h2>
-      <div className="mt-4">{children}</div>
-    </section>
+    <Card className="border-border/80">
+      <CardHeader className="flex-row items-start justify-between gap-3 px-5">
+        <div>
+          {eyebrow ? (
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-primary">
+              {eyebrow}
+            </p>
+          ) : null}
+          <CardTitle className="mt-1 text-xl font-bold">{title}</CardTitle>
+        </div>
+        {action}
+      </CardHeader>
+      <CardContent className="px-5">{children}</CardContent>
+    </Card>
   );
 }
-

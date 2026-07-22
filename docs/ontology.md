@@ -1,98 +1,119 @@
 # Ontology
 
-This document is the human-readable contract for the graph model. Keep it aligned with `backend/graph/schema.py`.
+This file is the single source of truth for the knowledge graph contract. Keep it aligned with [backend/graph/schema.py](/Users/akash/Desktop/AI%20Hackathon/industrial-knowledge-brain/backend/graph/schema.py).
 
-## Entity Types
+## Node Labels
 
-### Asset
+### Equipment
 
-Industrial equipment or systems such as pumps, valves, motors, compressors, tanks, and pipelines.
+Represents a tagged industrial asset or component.
 
-Core fields:
+Core properties:
 - `entity_id`
-- `canonical_name`
-- `asset_tag`
-- `asset_type`
-- `location`
-- `manufacturer`
-- `confidence`
+- `tag`
+- `normalized_tag`
+- `display_name`
+- `aliases`
+- `source_span`
 
 ### Document
 
-A source artifact that can be cited in answers.
+Represents a source file that can later be cited by the RAG layer.
 
-Core fields:
+Core properties:
 - `document_id`
+- `path`
 - `title`
-- `document_type`
-- `source_path`
-- `revision`
-- `created_at`
-
-### Procedure
-
-Operational or maintenance instructions extracted from manuals, SOPs, or work orders.
-
-Core fields:
-- `entity_id`
-- `canonical_name`
-- `procedure_type`
-- `system`
-- `confidence`
-
-### Observation
-
-Measured conditions, incidents, alarms, inspection results, or engineer notes.
-
-Core fields:
-- `entity_id`
-- `canonical_name`
-- `observed_at`
-- `severity`
-- `confidence`
+- `doc_type`
+- `ingested_at`
 
 ### Person
 
-Named individuals such as operators, maintainers, approvers, or subject matter experts.
+Represents maintainers, inspectors, operators, or authors named in the source corpus.
 
-Core fields:
+Core properties:
 - `entity_id`
-- `canonical_name`
-- `role`
-- `team`
-- `confidence`
+- `name`
+- `normalized_name`
 
-### Location
+### Procedure
 
-Plants, units, lines, rooms, or geographic sites.
+Represents a named SOP, work method, or lockout/startup procedure.
 
-Core fields:
+Core properties:
 - `entity_id`
-- `canonical_name`
-- `site_code`
-- `location_type`
-- `confidence`
+- `name`
+- `normalized_name`
+
+### RegulatoryRef
+
+Represents cited regulations, standards, or internal governance references.
+
+Core properties:
+- `entity_id`
+- `code`
+- `normalized_code`
+
+### InspectionEvent
+
+Represents an observation or dated inspection/maintenance event derived from a document.
+
+Core properties:
+- `event_id`
+- `event_date`
+- `event_type`
+- `evidence`
+
+### Parameter
+
+Represents structured operating values or measured conditions.
+
+Core properties:
+- `entity_id`
+- `value`
+- `normalized_value`
 
 ## Relationship Types
 
-- `MENTIONS`
-  Source document references an entity.
-- `LOCATED_IN`
-  Asset, procedure, or observation is tied to a location.
-- `PART_OF`
-  Asset hierarchy such as valve to skid or pump to unit.
-- `RELATED_TO`
-  Generic semantic association when a stronger edge type is not yet justified.
-- `DESCRIBES_PROCEDURE`
-  Document contains a procedure.
-- `OBSERVED_ON`
-  Observation applies to an asset or system.
-- `AUTHORED_BY`
-  Document or observation is linked to a person.
+### `PART_OF`
 
-## Retrieval Notes
+Equipment hierarchy or composition.
 
-- Every retrieved chunk must retain `document_id`, page or cell provenance, and extraction confidence.
-- Graph search should prioritize canonical entities first, then expand to directly linked procedures, observations, and source documents.
-- Vector search should retrieve chunk-level evidence and then reconcile entity references against the graph.
+### `FEEDS`
 
+Flow or process-direction relationship between equipment nodes.
+
+### `MAINTAINED_BY`
+
+Connects equipment or inspection events to the person responsible for maintenance work.
+
+### `INSPECTED_BY`
+
+Connects an inspection event to the person who performed it.
+
+### `GOVERNED_BY`
+
+Connects equipment, procedures, or inspection events to applicable regulatory references.
+
+### `REFERENCED_IN`
+
+Connects every extracted entity to the source document node. This edge powers downstream citation tracing.
+
+### `PERFORMED_BY`
+
+Connects procedures or events to the person who performed or authored the work.
+
+## Resolution Rules
+
+- `Equipment.tag` is the canonical merge key whenever a recognizable tag is present.
+- `normalized_tag` strips case, whitespace, punctuation, and common label words such as `pump`, `valve`, and `tank`.
+- Aliases such as `P-101A`, `Pump 101A`, and `Feed Pump 101A` must resolve to one Equipment node when they normalize to the same tag family.
+- Every merge decision should be logged so demos can show why a new mention was linked to an existing node.
+
+## Query Expectations
+
+For a canonical equipment tag query such as `P-101A`, the graph should be able to traverse to:
+- connected `Document` nodes for citations
+- related `InspectionEvent` nodes from logs and reports
+- linked `Procedure` nodes that govern startup or lockout steps
+- governing `RegulatoryRef` nodes when procedures cite them

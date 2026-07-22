@@ -1,0 +1,10 @@
+log_id,work_date,asset_reference,asset_alias,work_order,activity_type,technician,summary,hours,status
+ML-0001,2026-05-28,P-101A,Pump 101A,WO-4812,inspection,R. Mehta,"Observed light seal weep at drive end; recommend monitor during next route.",1.5,completed
+ML-0002,2026-05-29,V-204,Valve 204,WO-4818,preventive_maintenance,S. Khan,"Lubricated handwheel stem and verified full open travel.",0.8,completed
+ML-0003,2026-06-02,E-330,Heat Exchanger 330,WO-4861,inspection,P. Das,"Noted fouling trend from outlet temperature rise; forward to process engineer.",1.2,completed
+ML-0004,2026-06-05,P-101B,Pump 101B,WO-4879,function_test,R. Mehta,"Bump-tested standby machine; acceptable vibration and discharge pressure.",0.7,completed
+ML-0005,2026-06-11,P-101A,Feed Pump 101A,WO-4914,corrective_maintenance,N. Iyer,"Repacked seal flush fitting and cleaned drain pot after repeated drips.",2.3,completed
+ML-0006,2026-06-18,V-204,Isolation Valve V-204,WO-4955,inspection,S. Khan,"Valve torque higher than normal; keep on watch list for July shutdown.",1.0,completed
+ML-0007,2026-06-24,TK-12,Tank 12,WO-4998,inspection,A. Roy,"Verified nozzles clear and level indicator leg free of blockage.",1.1,completed
+ML-0008,2026-07-03,P-101A,P-101A,WO-5036,preventive_maintenance,R. Mehta,"Performed coupling alignment check after minor baseplate adjustment.",1.6,completed
+

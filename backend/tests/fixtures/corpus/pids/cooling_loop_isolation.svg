@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f2f6f8"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#102030">Cooling Loop Isolation Detail</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="16" fill="#4a5c6d">P&amp;ID Detail Sheet | Revision B | Utility Interface for Pump 101A</text>
+
+  <line x1="120" y1="250" x2="310" y2="250" stroke="#1d6fa5" stroke-width="10"/>
+  <text x="125" y="225" font-family="Arial, sans-serif" font-size="15" fill="#304254">CW SUPPLY</text>
+  <rect x="310" y="205" width="40" height="90" rx="8" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <line x1="330" y1="205" x2="330" y2="295" stroke="#304254" stroke-width="4"/>
+  <text x="282" y="180" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#102030">V-204</text>
+  <text x="245" y="325" font-family="Arial, sans-serif" font-size="15" fill="#304254">Isolation Valve V-204</text>
+
+  <line x1="350" y1="250" x2="470" y2="250" stroke="#1d6fa5" stroke-width="10"/>
+  <rect x="470" y="170" width="200" height="160" rx="20" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <line x1="500" y1="200" x2="640" y2="300" stroke="#1d6fa5" stroke-width="6"/>
+  <line x1="640" y1="200" x2="500" y2="300" stroke="#1d6fa5" stroke-width="6"/>
+  <text x="530" y="150" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#102030">E-330</text>
+  <text x="515" y="355" font-family="Arial, sans-serif" font-size="16" fill="#304254">Heat Exchanger 330</text>
+
+  <line x1="670" y1="250" x2="820" y2="250" stroke="#1d6fa5" stroke-width="10"/>
+  <circle cx="900" cy="250" r="56" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <polygon points="875,280 930,250 875,220" fill="#f97316"/>
+  <text x="840" y="155" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#102030">Pump 101A</text>
+  <text x="835" y="185" font-family="Arial, sans-serif" font-size="16" fill="#304254">Cooling water circulation tie-in</text>
+  <line x1="820" y1="250" x2="844" y2="250" stroke="#1d6fa5" stroke-width="10"/>
+
+  <line x1="956" y1="250" x2="1090" y2="250" stroke="#1d6fa5" stroke-width="10"/>
+  <text x="955" y="225" font-family="Arial, sans-serif" font-size="15" fill="#304254">CW RETURN</text>
+
+  <text x="60" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#102030">Legend / Comments</text>
+  <text x="90" y="510" font-family="Arial, sans-serif" font-size="16" fill="#304254">1. Valve 204 must be verified open prior to startup of Pump 101A.</text>
+  <text x="90" y="540" font-family="Arial, sans-serif" font-size="16" fill="#304254">2. Excessive exchanger outlet temperature to trigger operator round entry.</text>
+  <text x="90" y="570" font-family="Arial, sans-serif" font-size="16" fill="#304254">3. Standby circulation path via P-101B omitted for clarity.</text>
+</svg>
+

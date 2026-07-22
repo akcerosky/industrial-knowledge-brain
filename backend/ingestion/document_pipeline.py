@@ -1,7 +1,7 @@
 from datetime import datetime
 from uuid import uuid4
 
-from models.schemas import DocumentRecord
+from backend.models.schema import DocumentRecord
 
 
 class DocumentIngestionPipeline:
@@ -13,4 +13,3 @@ class DocumentIngestionPipeline:
         if not document.created_at:
             document.created_at = datetime.utcnow()
         return document
-

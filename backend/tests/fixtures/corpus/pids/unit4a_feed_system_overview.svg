@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f7f4ec"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#102030">Unit 4A Feed System Overview</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="16" fill="#4a5c6d">P&amp;ID snapshot | Revision C | Area: Crude Conditioning Skid</text>
+
+  <rect x="70" y="250" width="170" height="110" rx="18" fill="#d9e7f2" stroke="#304254" stroke-width="3"/>
+  <text x="105" y="305" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#102030">TK-12</text>
+  <text x="93" y="335" font-family="Arial, sans-serif" font-size="16" fill="#304254">Feed Surge Tank</text>
+
+  <line x1="240" y1="305" x2="350" y2="305" stroke="#f97316" stroke-width="8"/>
+  <text x="262" y="287" font-family="Arial, sans-serif" font-size="14" fill="#304254">6&quot; feed line</text>
+
+  <circle cx="420" cy="305" r="55" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <polygon points="395,335 450,305 395,275" fill="#f97316"/>
+  <text x="376" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#102030">P-101A</text>
+  <text x="337" y="245" font-family="Arial, sans-serif" font-size="16" fill="#304254">Feed Transfer Pump A</text>
+
+  <line x1="475" y1="305" x2="625" y2="305" stroke="#f97316" stroke-width="8"/>
+  <rect x="565" y="260" width="36" height="90" rx="8" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <line x1="583" y1="260" x2="583" y2="350" stroke="#304254" stroke-width="4"/>
+  <text x="540" y="235" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#102030">V-204</text>
+  <text x="510" y="375" font-family="Arial, sans-serif" font-size="15" fill="#304254">Discharge Isolation Valve</text>
+
+  <line x1="625" y1="305" x2="735" y2="305" stroke="#f97316" stroke-width="8"/>
+  <rect x="735" y="235" width="190" height="140" rx="18" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <line x1="755" y1="255" x2="905" y2="355" stroke="#f97316" stroke-width="6"/>
+  <line x1="905" y1="255" x2="755" y2="355" stroke="#f97316" stroke-width="6"/>
+  <text x="795" y="215" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#102030">E-330</text>
+  <text x="760" y="395" font-family="Arial, sans-serif" font-size="15" fill="#304254">Product Cooler / Heat Exchanger</text>
+
+  <line x1="925" y1="305" x2="1080" y2="305" stroke="#f97316" stroke-width="8"/>
+  <text x="958" y="287" font-family="Arial, sans-serif" font-size="14" fill="#304254">to blend header</text>
+
+  <text x="70" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#102030">Notes</text>
+  <text x="90" y="510" font-family="Arial, sans-serif" font-size="16" fill="#304254">1. Pump P-101A duty point: 42 m3/h at 5.2 barg.</text>
+  <text x="90" y="540" font-family="Arial, sans-serif" font-size="16" fill="#304254">2. V-204 normally locked open during steady-state operation.</text>
+  <text x="90" y="570" font-family="Arial, sans-serif" font-size="16" fill="#304254">3. Parallel standby machine P-101B shown on detailed drawing only.</text>
+</svg>
+

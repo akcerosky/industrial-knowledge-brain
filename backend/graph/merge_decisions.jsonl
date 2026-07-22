@@ -1,0 +1,114 @@
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "created", "resolved_key": "P-101A", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.595636+00:00"}
+{"entity_value": "Feed Pump 101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.595777+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "created", "resolved_key": "E-330", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.605892+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "created", "resolved_key": "P-101B", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.605944+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "created", "resolved_key": "TK-12", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.605983+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "created", "resolved_key": "V-204", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.606020+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "created", "resolved_key": "P-101A", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.606056+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606256+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606294+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606330+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606424+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-12", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606460+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606549+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606582+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-12", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606615+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606648+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606683+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606797+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-12", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606831+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606865+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.606902+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.607054+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.607088+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.607235+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.607272+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.607314+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.607355+00:00"}
+{"entity_value": "Tank 77", "entity_type": "Equipment", "action": "created", "resolved_key": "TK-77", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.608089+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "created", "resolved_key": "E-330", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.616064+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "created", "resolved_key": "P-101B", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.616123+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "created", "resolved_key": "TK-12", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.616166+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "created", "resolved_key": "V-204", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.616207+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "created", "resolved_key": "P-101A", "reason": "created new equipment node", "timestamp": "2026-07-22T15:12:28.616251+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.616687+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.616734+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.616777+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.616877+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-12", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.616917+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617003+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617038+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-12", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617073+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617109+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617148+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617263+00:00"}
+{"entity_value": "TK-12", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-12", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617305+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617353+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617395+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617549+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617586+00:00"}
+{"entity_value": "E-330", "entity_type": "Equipment", "action": "merged", "resolved_key": "E-330", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617719+00:00"}
+{"entity_value": "P-101B", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101B", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617757+00:00"}
+{"entity_value": "V-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "V-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617796+00:00"}
+{"entity_value": "P-101A", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-101A", "reason": "matched canonical tag", "timestamp": "2026-07-22T15:12:28.617836+00:00"}
+{"entity_value": "Dahej Plant", "entity_type": "Equipment", "action": "created", "resolved_key": "dahejplant", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:27.588104+00:00"}
+{"entity_value": "Utilities Unit", "entity_type": "Equipment", "action": "created", "resolved_key": "utilitiesunit", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:27.629353+00:00"}
+{"entity_value": "Cooling Water System", "entity_type": "Equipment", "action": "merged", "resolved_key": "utilitiesunit", "reason": "matched llm fuzzy alias", "timestamp": "2026-07-22T17:21:29.367669+00:00"}
+{"entity_value": "Cooling Water Pump P-204", "entity_type": "Equipment", "action": "created", "resolved_key": "P-204", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:31.347043+00:00"}
+{"entity_value": "Minimum-flow Bypass Valve FCV-204B", "entity_type": "Equipment", "action": "created", "resolved_key": "minimumflowbypassfcv204b", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:32.431871+00:00"}
+{"entity_value": "Cooling Water Pump P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:33.956077+00:00"}
+{"entity_value": "Cooling Water Pump P-205", "entity_type": "Equipment", "action": "created", "resolved_key": "P-205", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:33.699166+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:35.336059+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:35.357009+00:00"}
+{"entity_value": "Cooling Water Pump P-205", "entity_type": "Equipment", "action": "created", "resolved_key": "P-205", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:33.969661+00:00"}
+{"entity_value": "Suction Strainer STR-204", "entity_type": "Equipment", "action": "created", "resolved_key": "suctionstrainerstr204", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:35.806451+00:00"}
+{"entity_value": "Vibration Monitor VIB-204", "entity_type": "Equipment", "action": "created", "resolved_key": "vibrationmonitorvib204", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:37.796583+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:39.486158+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:39.516151+00:00"}
+{"entity_value": "FCV204B Flow Control Valve", "entity_type": "Equipment", "action": "created", "resolved_key": "fcv204bflowcontrol", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:38.679002+00:00"}
+{"entity_value": "P204 Pump", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:21:40.525547+00:00"}
+{"entity_value": "P205 Pump", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:21:40.562824+00:00"}
+{"entity_value": "STR204 Strainer", "entity_type": "Equipment", "action": "merged", "resolved_key": "suctionstrainerstr204", "reason": "matched llm fuzzy alias", "timestamp": "2026-07-22T17:21:40.601930+00:00"}
+{"entity_value": "VIB204 Vibration Sensor", "entity_type": "Equipment", "action": "created", "resolved_key": "vib204vibrationsensor", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:42.615114+00:00"}
+{"entity_value": "Critical rotating equipment", "entity_type": "Equipment", "action": "created", "resolved_key": "criticalrotatingequipment", "reason": "created new equipment node", "timestamp": "2026-07-22T17:21:46.722211+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:48.903249+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:21:48.967118+00:00"}
+{"entity_value": "CW Header", "entity_type": "Equipment", "action": "created", "resolved_key": "cwheader", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:02.713098+00:00"}
+{"entity_value": "CW Tank TK-201", "entity_type": "Equipment", "action": "created", "resolved_key": "TK-201", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:05.145788+00:00"}
+{"entity_value": "XV-204A", "entity_type": "Equipment", "action": "created", "resolved_key": "xv204a", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:06.842740+00:00"}
+{"entity_value": "Dahej Plant", "entity_type": "Equipment", "action": "merged", "resolved_key": "dahejplant", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:22:09.592216+00:00"}
+{"entity_value": "Utilities Unit", "entity_type": "Equipment", "action": "merged", "resolved_key": "utilitiesunit", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:22:09.620412+00:00"}
+{"entity_value": "Cooling Water System", "entity_type": "Equipment", "action": "merged", "resolved_key": "utilitiesunit", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:22:09.664945+00:00"}
+{"entity_value": "STR-204", "entity_type": "Equipment", "action": "created", "resolved_key": "str204", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:08.621743+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:10.779530+00:00"}
+{"entity_value": "Minimum-flow Bypass Valve", "entity_type": "Equipment", "action": "created", "resolved_key": "minimumflowbypass", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:09.701883+00:00"}
+{"entity_value": "Cooling Water Pump P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:11.492474+00:00"}
+{"entity_value": "Cooling Water Pump P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:11.513354+00:00"}
+{"entity_value": "Suction Strainer STR-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "suctionstrainerstr204", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:22:11.533353+00:00"}
+{"entity_value": "CV-204", "entity_type": "Equipment", "action": "created", "resolved_key": "cv204", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:10.803563+00:00"}
+{"entity_value": "Vibration Monitor", "entity_type": "Equipment", "action": "created", "resolved_key": "vibrationmonitor", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:11.553531+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:13.731868+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:13.774605+00:00"}
+{"entity_value": "FCV-204B", "entity_type": "Equipment", "action": "created", "resolved_key": "fcv204b", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:12.818533+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:14.886386+00:00"}
+{"entity_value": "TK-201", "entity_type": "Equipment", "action": "merged", "resolved_key": "TK-201", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:14.901479+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:24.117529+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:24.260864+00:00"}
+{"entity_value": "differential-pressure transmitter", "entity_type": "Equipment", "action": "created", "resolved_key": "differentialpressuretransmitter", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:24.136442+00:00"}
+{"entity_value": "minimum-flow bypass valve", "entity_type": "Equipment", "action": "merged", "resolved_key": "minimumflowbypass", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:22:26.155734+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:26.210645+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:26.227917+00:00"}
+{"entity_value": "Impeller", "entity_type": "Equipment", "action": "created", "resolved_key": "impeller", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:24.278893+00:00"}
+{"entity_value": "minimum-flow bypass", "entity_type": "Equipment", "action": "merged", "resolved_key": "minimumflowbypass", "reason": "matched normalized alias", "timestamp": "2026-07-22T17:22:26.374627+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:26.432536+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:26.447463+00:00"}
+{"entity_value": "suction strainer", "entity_type": "Equipment", "action": "created", "resolved_key": "suctionstrainer", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:26.391562+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:28.296037+00:00"}
+{"entity_value": "suction strainer", "entity_type": "Equipment", "action": "created", "resolved_key": "suctionstrainer", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:26.179758+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:28.821889+00:00"}
+{"entity_value": "low-flow bypass", "entity_type": "Equipment", "action": "created", "resolved_key": "lowflowbypass", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:28.316052+00:00"}
+{"entity_value": "strainer", "entity_type": "Equipment", "action": "created", "resolved_key": "strainer", "reason": "created new equipment node", "timestamp": "2026-07-22T17:22:30.333643+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:33.079685+00:00"}
+{"entity_value": "P-205", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-205", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:33.096602+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:42.356146+00:00"}
+{"entity_value": "P-204", "entity_type": "Equipment", "action": "merged", "resolved_key": "P-204", "reason": "matched canonical tag", "timestamp": "2026-07-22T17:22:42.419746+00:00"}

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#fbfaf7"/>
+  <text x="60" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#102030">Night Shift Markup - Feed Pump Train</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="16" fill="#4a5c6d">Operator redline based on June 18 inspection observations</text>
+
+  <rect x="95" y="260" width="150" height="95" rx="16" fill="#d9e7f2" stroke="#304254" stroke-width="3"/>
+  <text x="126" y="315" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#102030">Tank 12</text>
+
+  <line x1="245" y1="307" x2="360" y2="307" stroke="#f97316" stroke-width="8"/>
+  <circle cx="430" cy="307" r="50" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <polygon points="407,334 458,307 407,280" fill="#f97316"/>
+  <text x="365" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#102030">Feed Pump 101A</text>
+  <text x="368" y="245" font-family="Arial, sans-serif" font-size="15" fill="#304254">Primary duty pump</text>
+
+  <line x1="480" y1="307" x2="575" y2="307" stroke="#f97316" stroke-width="8"/>
+  <circle cx="655" cy="307" r="50" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <polygon points="632,334 683,307 632,280" fill="#f3b34c"/>
+  <text x="612" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#102030">P-101B</text>
+  <text x="598" y="245" font-family="Arial, sans-serif" font-size="15" fill="#304254">Standby pump</text>
+
+  <line x1="705" y1="307" x2="840" y2="307" stroke="#f97316" stroke-width="8"/>
+  <rect x="840" y="260" width="36" height="90" rx="8" fill="#fff" stroke="#304254" stroke-width="4"/>
+  <line x1="858" y1="260" x2="858" y2="350" stroke="#304254" stroke-width="4"/>
+  <text x="815" y="235" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#102030">Valve 204</text>
+  <line x1="876" y1="307" x2="1010" y2="307" stroke="#f97316" stroke-width="8"/>
+
+  <polyline points="430,357 430,430 530,430" fill="none" stroke="#c62828" stroke-width="5"/>
+  <text x="540" y="435" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#c62828">Observed seal weep at Pump 101A on 2026-06-18</text>
+
+  <polyline points="858,357 858,485 715,485" fill="none" stroke="#c62828" stroke-width="5"/>
+  <text x="475" y="492" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#c62828">Valve 204 handwheel stiff, verify lubrication on next PM</text>
+
+  <text x="60" y="610" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#102030">Shift Notes</text>
+  <text x="90" y="650" font-family="Arial, sans-serif" font-size="16" fill="#304254">1. Operators referred to TK-12 as Tank 12 during rounds.</text>
+  <text x="90" y="680" font-family="Arial, sans-serif" font-size="16" fill="#304254">2. Standby unit P-101B remains available but not running.</text>
+</svg>
+

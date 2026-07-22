@@ -1,6 +1,6 @@
 # industrial-knowledge-brain
 
-A platform that ingests heterogeneous industrial documents, extracts entities into a knowledge graph, and exposes a citation-backed RAG copilot for operational, maintenance, and engineering workflows.
+An Expert Knowledge Copilot that ingests heterogeneous industrial documents and exposes a citation-backed RAG experience for operational, maintenance, and engineering workflows.
 
 ## Locked Stack
 
@@ -8,7 +8,7 @@ A platform that ingests heterogeneous industrial documents, extracts entities in
 - Graph database: Neo4j via the official Python driver
 - Vector store: Postgres + pgvector
 - OCR: Tesseract first, with room to swap in PaddleOCR later
-- LLM calls: Anthropic API for extraction, synthesis, and confidence scoring
+- LLM calls: Google Gemini API for extraction, synthesis, and confidence scoring
 - Frontend: React + Vite + Tailwind CSS, mobile-responsive and PWA-capable
 - Retrieval orchestration: hand-rolled graph/vector router
 
@@ -17,8 +17,8 @@ A platform that ingests heterogeneous industrial documents, extracts entities in
 ```text
 industrial-knowledge-brain/
 ├── backend/
+│   └── data/          # runtime uploads + generated outputs (gitignored, empty on a fresh checkout)
 ├── frontend/
-├── sample_data/
 ├── docs/
 └── README.md
 ```
@@ -43,18 +43,16 @@ npm install
 npm run dev
 ```
 
-## Phase 0 Focus
+## Product Focus
 
-- Create a stable ingestion contract for PDFs, scans, spreadsheets, and email exports
-- Keep ontology and graph merge behavior in sync
-- Stand up a hybrid retrieval path that keeps citations attached at every step
-- Seed `sample_data/` with representative demo documents before extraction work begins
+- Answer operational, maintenance, and engineering questions across the document corpus
+- Keep every answer grounded with citations, confidence scores, and direct links to source files
+- Support field technicians on mobile as well as engineers on desktop
 
 ## Next Build Steps
 
 1. Add Postgres and Neo4j connection settings with environment-driven configuration.
 2. Implement Tesseract-backed OCR and PDF/text extraction adapters.
-3. Add Anthropic-powered entity and relation extraction with confidence scores.
+3. Add Gemini-powered entity and relation extraction with confidence scores.
 4. Persist chunks to pgvector and canonical entities/relations to Neo4j.
 5. Wire the frontend chat flow to the FastAPI retrieval endpoints.
-
