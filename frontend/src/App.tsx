@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { BrainCircuit, Database, Radio, ShieldCheck, Sparkles, UploadCloud, Waypoints, Wrench, PlayCircle } from "lucide-react";
+import { BrainCircuit, Database, Radio, ShieldCheck, Sparkles, Waypoints, Wrench } from "lucide-react";
 import { AdministrationPage } from "./pages/Administration";
 import { AssetsPage } from "./pages/Assets";
 import { ChatPage } from "./pages/Chat";
@@ -8,7 +8,6 @@ import { IntelligencePage } from "./pages/Intelligence";
 import { KnowledgePage } from "./pages/Knowledge";
 import { PendingActionsPanel } from "./pages/PendingActions";
 import { WorkflowsPage } from "./pages/Workflows";
-import { DemoTourPage } from "./pages/DemoTour";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from "@/components/ui/sheet";
@@ -124,7 +123,7 @@ type RuntimeStatus = {
 type RuntimeStatusState = "loading" | "ready" | "unavailable";
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<"copilot" | "assets" | "knowledge" | "workflows" | "intelligence" | "administration" | "demo">("demo");
+  const [activeTab, setActiveTab] = useState<"copilot" | "assets" | "knowledge" | "workflows" | "intelligence" | "administration">("copilot");
   const [selectedCitation, setSelectedCitation] = useState<Citation | null>(null);
   const [latestResponse, setLatestResponse] = useState<QueryResponse | null>(null);
   const [graphTagOverride, setGraphTagOverride] = useState<string | null>(null);
@@ -233,18 +232,6 @@ export default function App() {
           <div className="grid gap-1">
             <button
               type="button"
-              onClick={() => setActiveTab("demo")}
-              className={`w-full flex items-center gap-3 px-3 py-2 text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
-                activeTab === "demo"
-                  ? "bg-primary text-primary-foreground shadow-sm"
-                  : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
-              }`}
-            >
-              <PlayCircle className="size-4 shrink-0 text-amber-500 fill-amber-500/10" />
-              <span>Product Demo Tour</span>
-            </button>
-            <button
-              type="button"
               onClick={() => setActiveTab("copilot")}
               className={`w-full flex items-center gap-3 px-3 py-2 text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
                 activeTab === "copilot"
@@ -340,7 +327,6 @@ export default function App() {
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex min-w-0 flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-3">
               <span className="w-fit text-[10px] font-black font-mono text-primary uppercase tracking-wider bg-primary/10 px-2.5 py-1 rounded">
-                {activeTab === "demo" && "Demo Tour"}
                 {activeTab === "copilot" && "Copilot"}
                 {activeTab === "assets" && "Assets"}
                 {activeTab === "knowledge" && "Knowledge"}
@@ -350,7 +336,6 @@ export default function App() {
               </span>
               <span className="hidden text-slate-200 sm:inline">|</span>
               <span className="text-xs font-semibold text-slate-500">
-                {activeTab === "demo" && "Play an automated, interactive simulation of the 3-minute product demo."}
                 {activeTab === "copilot" && "Ask operational questions, inspect evidence, and follow AI-guided actions."}
                 {activeTab === "assets" && "Explore asset context, maintenance history, and linked industrial knowledge."}
                 {activeTab === "knowledge" && "Manage ingested documents, parsed records, and processing status."}
@@ -380,8 +365,6 @@ export default function App() {
 
         {/* Content Area */}
         <div className="p-5 sm:p-6 flex-1 min-h-0 overflow-y-auto">
-          {activeTab === "demo" && <DemoTourPage />}
-
           {activeTab === "knowledge" && (
             <KnowledgePage
               dataVersion={corpusVersion}

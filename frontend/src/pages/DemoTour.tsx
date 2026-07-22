@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { 
-  Play, Pause, RotateCcw, ChevronLeft, ChevronRight, 
+  Play, Pause, RotateCcw, ChevronLeft, ChevronRight, PlayCircle,
   MousePointer, Radio, Waypoints, Database, Wrench, 
   Sparkles, ShieldCheck, Check, Send, AlertTriangle, 
   HelpCircle, BarChart3, Clock
